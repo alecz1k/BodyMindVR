@@ -6,7 +6,7 @@ TBA
 
 Install Unity3d 5.1.1f1
 Install Oculus Runtime 0.6.0.2
-Install OpenvIBE 1.0.1 
+Install OpenVibe 1.0.1 
 Install Python 2.7.10
 Install numpy via cmd terminal
 
