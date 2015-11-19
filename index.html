@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>BodyMindVR by alecz1k</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">BodyMindVR</h1>
+      <h2 class="project-tagline">Open project to experiment with EEG, ECG, pulse sensor and respiratory belt in VR</h2>
+      <a href="https://github.com/alecz1k/BodyMindVR" class="btn">View on GitHub</a>
+      <a href="https://github.com/alecz1k/BodyMindVR/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/alecz1k/BodyMindVR/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <p>TBA</p>
+
+<h3>
+<a id="welcome-to-bodymindvr" class="anchor" href="#welcome-to-bodymindvr" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to BodyMindVR</h3>
+
+<p>This project allows you to experiment with VR headsets (Oculus Rift Dk2 and VRVana's Totem) and sensors such as EEG and ECG, pulse sensor, respiratory belt, through the usage of an OpenBCI or Arduino board. We have created a simple scene in which the player control the intensity of a campfire with his breathing, which is included in the project. We will also show you how to make your own respiratory belt from scratch. </p>
+
+<h3>
+<a id="how-to" class="anchor" href="#how-to" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to</h3>
+
+<p>For your sensors to communicate with Unity3D, you will need an OpenBCI or an Arduino REV3 board.
+We used OpenBCI board with Openvibe (version 1.0.1) but it should work the same with an Arduino board. 
+You can download OpenVibe here: <a href="http://openvibe.inria.fr/pub/bin/win32/">http://openvibe.inria.fr/pub/bin/win32/</a> 
+You will also need Python 2.7.10 (<a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>) and the superpackage "numpy" (<a href="http://sourceforge.net/projects/numpy/files/NumPy/1.10.1/">http://sourceforge.net/projects/numpy/files/NumPy/1.10.1/</a>) installed on your machine. You have to install numpy through the terminal cmd. 
+Download the project BodyMindVR.
+Install Oculus Rift Runtime 0.6.0.2 on your machine.
+Launch "openvibe-acquisition-server" (located at C:Program Files/Openvibe).
+Select Driver "OpenBCI (unstable), Connection Port: "1024", Sample Count: "32", and click on "Driver Properties".
+Make sure your OpenBCI or Arduino board is connected to the matching port //./COM3 or //./COM4.
+On the "Send Command on Init", set the line to: "x1060000Xx2060000X" and Click "Apply".
+Back on the OpenViBE Acquisition Server, Click on "Connect".
+Launch "openvibe-designer" (located at C:Program Files/Openvibe).
+Click "File", "Open". Open the file "hackathon_coherence_openbci_manual" located in the "Neurovr" master folder.
+Click the icon "Play". If the sensors are ready, you should see some movement already on your screen. 
+Launch Unity3D (version 5.1.1f1) and open "Breathe@work" folder.
+In Unity 3D, open the scene "test-oclus". 
+That's it! You made it! You can now help to improve this project!</p>
+
+<h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>Initiated in Montreal, November 2015, by Jérémy Frey (<a href="https://github.com/jfrey-phd" class="user-mention">@jfrey-phd</a>), Alexandre Girardeau (<a href="https://github.com/alecz1k" class="user-mention">@alecz1k</a>), Kevin Ouellet (<a href="https://github.com/kouellet" class="user-mention">@kouellet</a>), Sandy Carter (<a href="https://github.com/bwrsandman" class="user-mention">@bwrsandman</a>), Bertrand Nepveu, Karl-Antoine Simoneau, Léa Charpentier, Aphisith Keosavang. </p>
+
+<h3>
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>For any inquiries, contact us <a href="https://github.com/alecz1k" class="user-mention">@alecz1k</a>, <a href="https://github.com/jfrey-phd" class="user-mention">@jfrey-phd</a>, <a href="https://github.com/kouellet" class="user-mention">@kouellet</a>.</p>
+
+<p>More info will follow</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/alecz1k/BodyMindVR">BodyMindVR</a> is maintained by <a href="https://github.com/alecz1k">alecz1k</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("vr, eeg, openbci, ecg, neurotech, neurotechmtl, respiratory belt, oculus, rift, biofeedback, neurofeedback, bodymindvr, vrvana, highway101, ");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
