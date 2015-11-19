@@ -3,12 +3,6 @@ Open project to experiment and create VR games involving EEG &/or ECG &/or pulse
 
 
 
-  _   _   _   _   _   _   _   _   _   _   _   _   _  
- / \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \ 
-( H | I | G | H | W | A | Y | 1 | 0 | 1 | E | T | C )
- \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ 
-
-
 MAJ: 18 NOV 2015
 
 
