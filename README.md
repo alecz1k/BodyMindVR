@@ -7,7 +7,7 @@ MAJ: 18 NOV 2015
 
 
 WHAT FOR: 
-This project will allow you to experiment with VR headsets (Oculus Rift Dk2 and VRVana's Totem) and sensors such as EEG and ECG, pulse sensor, respiratory belt, throught the usage of an OpenBCI or Arduino board. With this project, we have created a scene in which the player control the intensity of a campfire with his breathing. The scene is included in the project. Anyone is more than invited to help in the development of the project.
+This project will allow you to experiment with VR headsets (Oculus Rift Dk2 and VRVana's Totem) and sensors such as EEG and ECG, pulse sensor, respiratory belt, through the usage of an OpenBCI or Arduino board. With this project, we have created a scene in which the player control the intensity of a campfire with his breathing. The scene is included in the project. Anyone is more than invited to help in the development of the project.
 
 
 
