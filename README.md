@@ -36,4 +36,22 @@ Initiated in Montreal, November 2015, by Jérémy Frey (@jfrey-phd), Alexandre G
 
 ******************************
 
+HOW TO MAKE YOUR RESPIRATORY BELT:
+
+You will need: 
+-Elastic band (+/-90cm)
+-Velcro band (+-/20cm)
+-Conductive rubber cord (32cm)
+-Snap Fasteners (12mm or +)
+-Thin Conductive Yarn and needles (to sew the rubber cord and the snap fasteners to the elastic band)
+-Cable & soldering gun (to solder the snap fasteners to the cables-to be plugged in arduino)
+
+Instructions:
+-Cut an elastic band 92 cm long
+-Sew or staple velcro on each extremities of the elastic band (see picture below)
+-Sew half of snap fasteners with conductive rubber cord (see picture below)
+-Solder the other half of the snap fasteners to cables (that will bring the inputs to openBCi or Arduino board)
+
+
+
 More info will follow
