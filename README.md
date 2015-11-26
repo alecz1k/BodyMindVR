@@ -52,6 +52,14 @@ Instructions:
 -Sew half of snap fasteners with conductive rubber cord (see picture below)
 -Solder the other half of the snap fasteners to cables (that will bring the inputs to openBCi or Arduino board)
 
+PICTURES:
 
+https://www.flickr.com/photos/aertiron/22701144093
+https://www.flickr.com/photos/aertiron/23220143302
+https://www.flickr.com/photos/aertiron/22699906034
+https://www.flickr.com/photos/aertiron/23032442200
+https://www.flickr.com/photos/aertiron/23302137606
+https://www.flickr.com/photos/aertiron/23328261015
 
+***********************
 More info will follow
